@@ -66,7 +66,6 @@ playerStyle =
             [ color (rgba 255 255 255 1)
             ]
         , Css.Media.withMedia [ Css.Media.all [ Css.Media.maxWidth (px 800) ] ]
-            [ marginLeft (px -130)
-            , marginTop (px -4)
+            [
             ]
         ]

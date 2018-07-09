@@ -149,7 +149,7 @@ contentStyle =
     css
         [ property "margin" "0 0 0 0"
         , Css.Media.withMedia [ Css.Media.all [ Css.Media.maxWidth (px 800) ] ]
-            [ property "margin" "0 0 0 50px" ]
+            [  ]
         ]
 
 
