@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Calibre";
+  src: url("./files/CalibreWeb-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Calibre";
+  src: url("./files/CalibreWeb-RegularItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: "Calibre";
+  src: url("./files/CalibreWeb-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Calibre";
+  src: url("./files/CalibreWeb-MediumItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: 500;
+}
+
+
+@font-face {
+  font-family: 'Apercu Mono';
+  src: url("./files/apercu-mono-regular-pro.woff") format("woff");
+}
