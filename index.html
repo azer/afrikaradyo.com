@@ -41,7 +41,7 @@
 	  grid-template-columns: 80px 200px auto 280px;
 	  backdrop-filter: blur(20px) saturate(190%) contrast(70%) brightness(70%);
 	  box-shadow: rgb(0 0 0 / 50%) 0px 16px 70px;
-	  border-top: 1px solid rgba(255, 255, 255, 0.05);
+	  border-top: 1px solid rgba(255, 255, 255, 0.075);
 	  padding: 10px;
 	  overflow: hidden;
       }
@@ -63,6 +63,9 @@
       #info {
 	  cursor: default;
 	  font-size: 14px;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
       }
 
       #info span {
@@ -111,7 +114,7 @@
 
       @media (max-width: 660px) {
 	  #player {
-	      grid-template-columns: 80px 150px auto 170px;
+	      grid-template-columns: 80px 120px auto 170px;
 	  }
       }
 
