@@ -350,6 +350,7 @@ function playIcon() {
 
 function audioEvent(name, newState) {
   return function () {
+    console.log("audio event: ", name);
     state = { ...state, ...newState };
     onStateChange();
   };
