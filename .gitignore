@@ -1,2 +1,3 @@
-elm-stuff
-public/bundle*
+status.json
+.DS_store
+cover.jpeg

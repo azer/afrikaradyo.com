@@ -1,34 +1,39 @@
 @font-face {
-  font-family: "Calibre";
-  src: url("./files/CalibreWeb-Regular.woff") format("woff");
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
+  src: url(./files/inter-v12-latin-regular-V5XL2EXU.eot);
+  src:
+    local(""),
+    url(./files/inter-v12-latin-regular-V5XL2EXU.eot?#iefix) format("embedded-opentype"),
+    url(./files/inter-v12-latin-regular-JE4TJ54C.woff2) format("woff2"),
+    url(./files/inter-v12-latin-regular-MSVC73I4.woff) format("woff"),
+    url(./files/inter-v12-latin-regular-AENTTZSF.ttf) format("truetype"),
+    url(./files/inter-v12-latin-regular-7L3PHK4J.svg#Inter) format("svg");
 }
-
 @font-face {
-  font-family: "Calibre";
-  src: url("./files/CalibreWeb-RegularItalic.woff") format("woff");
-  font-style: italic;
-  font-weight: 400;
-}
-
-
-@font-face {
-  font-family: "Calibre";
-  src: url("./files/CalibreWeb-Medium.woff") format("woff");
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
+  src: url(./files/inter-v12-latin-500-JB5KC7MS.eot);
+  src:
+    local(""),
+    url(./files/inter-v12-latin-500-JB5KC7MS.eot?#iefix) format("embedded-opentype"),
+    url(./files/inter-v12-latin-500-W67HLOMG.woff2) format("woff2"),
+    url(./files/inter-v12-latin-500-GL36QTH7.woff) format("woff"),
+    url(./files/inter-v12-latin-500-26FHPMXR.ttf) format("truetype"),
+    url(./files/inter-v12-latin-500-GRI6WK74.svg#Inter) format("svg");
 }
-
 @font-face {
-  font-family: "Calibre";
-  src: url("./files/CalibreWeb-MediumItalic.woff") format("woff");
-  font-style: italic;
-  font-weight: 500;
-}
-
-
-@font-face {
-  font-family: 'Apercu Mono';
-  src: url("./files/apercu-mono-regular-pro.woff") format("woff");
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url(./files/inter-v12-latin-600-BCMLSGVU.eot);
+  src:
+    local(""),
+    url(./files/inter-v12-latin-600-BCMLSGVU.eot?#iefix) format("embedded-opentype"),
+    url(./files/inter-v12-latin-600-UPUTVIFF.woff2) format("woff2"),
+    url(./files/inter-v12-latin-600-GB4DBAJI.woff) format("woff"),
+    url(./files/inter-v12-latin-600-QPXBLRBF.ttf) format("truetype"),
+    url(./files/inter-v12-latin-600-PK3MSXI6.svg#Inter) format("svg");
 }
