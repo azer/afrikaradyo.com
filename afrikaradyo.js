@@ -190,7 +190,7 @@ function renderAudio() {
     audioEvent("playing", { playing: true, loading: false })
   );
   audio.addEventListener("ended", audioEvent("ended", { loading: true }));
-  audio.addEventListener("pause", audioEvent("pause", { loading: true }));
+  audio.addEventListener("pause", audioEvent("pause", { playing: false }));
   audio.addEventListener("stalled", audioEvent("stalled", { loading: true }));
   audio.addEventListener("waiting", audioEvent("waiting", { loading: true }));
 }
