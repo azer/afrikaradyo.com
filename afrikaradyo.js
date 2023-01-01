@@ -47,11 +47,11 @@ function onStateChange() {
   document.querySelector("#cover").src = state.cover;
   document.querySelector("#outer").className =
     state.playing && !state.loading && !state.muted ? "playing" : "";
-  /*document.querySelector("#listeners").style.display =
+  document.querySelector("#listeners").style.display =
     state.listeners < 2 ? "hidden" : "block";
   document.querySelector(
     "#listeners"
-  ).innerHTML = `${state.listeners} Dinleyici`;*/
+  ).innerHTML = `${state.listeners} Dinleyici`;
 }
 
 function onClickPlayButton() {
